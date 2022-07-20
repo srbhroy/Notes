@@ -1,0 +1,13 @@
+Quick Notes For Github :
+
+1) Add name and email of the user to track changes
+	git config --global user.name "Your name"
+	git config --global user.email "your@email.com"
+
+2) Repositories : A container for a project that is tracked by Git.
+		  These are of two types are : 
+						*local:stored locally for personal local use.
+						*remote:stored remotely for teams collab.
+
+3) Initialize a git repo : Creates new repo for the project. Navigate to the project folder and type :
+			   git init
