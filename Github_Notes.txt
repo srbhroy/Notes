@@ -11,3 +11,6 @@ Quick Notes For Github :
 
 3) Initialize a git repo : Creates new repo for the project. Navigate to the project folder and type :
 			   git init
+
+4) Check Git status: Checks git repository status of changed/modification files, tracked files, untracked files : 
+			   git status
