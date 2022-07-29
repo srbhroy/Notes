@@ -12,5 +12,12 @@ Quick Notes For Github :
 3) Initialize a git repo : Creates new repo for the project. Navigate to the project folder and type :
 			   git init
 
-4) Check Git status: Checks git repository status of changed/modification files, tracked files, untracked files : 
+4) Check Git status : Checks git repository status of changed/modification files, tracked files, untracked files : 
 			   git status
+
+5) Staging files : Adds files to staging area so that files can be tracked for changes :
+			   git add filename.extension filename.extension
+
+6) Making commits : Commit makes saving a snapshot of file data at a particular time in commit history so that we can roll back
+		    to past file data if we want. Before commiting, file must be staged.
+			   git commit -m "YOUR COMMIT MESSAGE"
