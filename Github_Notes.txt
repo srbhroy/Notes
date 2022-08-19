@@ -26,5 +26,17 @@ Quick Notes For Github :
    from the current state into local computer.
    					  git pull <https github repo link>
    					  
-) Creating branch : to create branch use -b flag.
+8) Creating branch : To create a new branch use -b flag.
 		    git checkout -b branch-name
+		    		or
+		    git branch branch-name
+		
+9) Get list of branches in repo : To get list of branches in git.
+		    git branch
+		    
+10) Switch branch : To jump between branches.
+		 git checkout branch-name
+		 
+11) Merge branch : To merge branches, first commit all changes of the branch and then navigate
+    to that branch where you want to merge another branch, then use the command.
+		   git merge branch-name-of-the-which-you-want-to-get-merged.
