@@ -21,3 +21,10 @@ Quick Notes For Github :
 6) Making commits : Commit makes saving a snapshot of file data at a particular time in commit history so that we can roll back
 		    to past file data if we want. Before commiting, file must be staged.
 			   git commit -m "YOUR COMMIT MESSAGE"
+			   
+7) Downloading repositories from github : Download/clone and work seamlessly from a project repo
+   from the current state into local computer.
+   					  git pull <https github repo link>
+   					  
+) Creating branch : to create branch use -b flag.
+		    git checkout -b branch-name
